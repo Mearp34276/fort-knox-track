@@ -1,20 +1,27 @@
 # Fort Knox
 
-Fort Knox is an installable **plugin of tracks**. Operators run their own trains on the track; Fort Knox **passively meters a disclosed $0.002 USDC (Base) toll** per completed transaction and issues a receipt. The public package ships with a **mock meter** by default — no private keys, no live sends. Operators configure a public treasury address when ready; live settlement stays off until enabled.
+Fort Knox is an installable **plugin of tracks**. Think of it like a railroad:
+
+- A **track** is the Fort Knox rail you install — the shared path that accepts completed work, assigns a route id, and meters a toll.
+- A **train** is *your* traffic on that rail — a job, transfer, cash-access hop, borrow flow, or any completed transaction **you** run in **your** product.
+- Fort Knox does **not** run the trains. You (the operator) keep the customer relationship and the money movement; you only **report** when a train has completed on the track.
+- When a train completes, Fort Knox **passively meters a disclosed $0.002 USDC (Base) toll** and issues a receipt.
+
+The public package ships with a **mock meter** by default — no private keys, no live sends. Operators configure a public treasury address when ready; live settlement stays off until enabled.
 
 **Owner:** M.E.
-
 
 ## Product
 
 | Piece | Meaning |
 |-------|---------|
-| **Plugin** | Drop-in track package you host yourself |
-| **Tracks** | Prebuilt rails that route completed work |
-| **Trains** | Your own traffic / jobs / transfers on those tracks |
-| **Toll** | Flat **$0.002** USD-equivalent crypto per completed transaction |
+| **Plugin** | The installable package you host yourself |
+| **Track** | The Fort Knox rail: routes completed work, meters completion, records the toll |
+| **Train** | Your own traffic on that rail (jobs / transfers / completed transactions you operate) |
+| **Operator** | Anyone who installs the plugin and runs their own trains |
+| **Toll** | Flat **$0.002** USD-equivalent crypto per **completed** train/transaction |
 
-Fort Knox does not own the trains. Operators run them; the track meters completion and records the toll.
+**In short:** tracks = the rails (Fort Knox). trains = the traffic (yours). toll = $0.002 when a train finishes.
 
 Optional examples of who might run trains (not required, not exclusive): personal apps, marketplaces, banks, or fintechs such as MoneyLion- or Cash App–class products. Those are illustrations only—the track is general-purpose.
 
