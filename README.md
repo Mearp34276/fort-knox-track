@@ -113,3 +113,9 @@ Scaffold owned by M.E. MIT license in `LICENSE`. See [docs/PUBLISH.md](docs/PUBL
 
 **This is a technical meter/plugin scaffold — not a money-transmitter license, banking charter, or legal advice. Operators own their compliance; live crypto settlement stays off until the owner enables it under counsel.**
 
+
+## Report concerns
+
+Open a free GitHub Issue: https://github.com/Mearp34276/fort-knox-track/issues
+
+We watch Issues on weekdays and update the software when people report problems or confusion. No paid support plan.
