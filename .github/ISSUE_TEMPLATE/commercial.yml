@@ -1,0 +1,53 @@
+name: Commercial quote
+description: Request paid install help, priority support, or a custom integration quote
+title: "[commercial] "
+labels: ["commercial"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Commercial / paid work** — not a feature request.
+
+        Open-source use stays free (MIT). Use this form for install help, priority support, or a one-off operator integration on the Fort Knox track.
+
+        Honest ranges (not guarantees): install/help often **$150–$500**; larger integrations are quoted after scope.
+
+        Owner: **M.E.**
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: What do you need?
+      options:
+        - Install / setup help
+        - Priority support
+        - Custom operator integration / scripting
+        - Other (describe below)
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What product/stack will run trains on the track? Mock meter only, or planning live settlement later?
+      placeholder: e.g. internal ops tool, marketplace hop, agent workflow…
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: What does success look like?
+      description: Deliverable you would pay for (one sentence is fine).
+    validations:
+      required: true
+  - type: input
+    id: budget
+    attributes:
+      label: Rough budget (optional)
+      description: e.g. $150–$500 install/help, or “quote larger integration”
+      placeholder: "$150–$500"
+  - type: input
+    id: contact
+    attributes:
+      label: Preferred contact
+      description: GitHub username is enough; email optional if you want a reply off-Issue.
+      placeholder: "@yourhandle or email"
