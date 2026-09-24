@@ -110,6 +110,9 @@ Full steps: [docs/LINK-TREASURY.md](docs/LINK-TREASURY.md) · toll spec: [docs/T
 | [docs/USER-GUIDE.md](docs/USER-GUIDE.md) | Deep product description + how to use |
 | [docs/CONCEPT.md](docs/CONCEPT.md) | Actors, happy path, where toll is charged |
 | [docs/TOLL.md](docs/TOLL.md) | Toll math, settlement options, receipt fields |
+| [docs/EARN.md](docs/EARN.md) | Honest earn path ($0 until a buyer pays) |
+| [docs/LAUNCH.md](docs/LAUNCH.md) | Unpublished Show HN + Reddit/IH drafts |
+| [docs/SPONSORS.md](docs/SPONSORS.md) | Owner steps to enable GitHub Sponsors |
 | [COMPLIANCE-NOTES.md](COMPLIANCE-NOTES.md) | What this is / isn’t from a regulatory standpoint |
 
 ## License / packaging
@@ -132,4 +135,12 @@ We watch Issues on weekdays and update the software when people report problems 
 MIT use stays free. For paid install help, priority support, or a custom operator integration, open a **Commercial quote** Issue: https://github.com/Mearp34276/fort-knox-track/issues/new/choose
 
 Details: [`docs/COMMERCIAL.md`](docs/COMMERCIAL.md). Honest earn notes: [`docs/EARN.md`](docs/EARN.md). Owner: **M.E.**
+
+## Sponsors
+
+Placeholder only: https://github.com/sponsors/Mearp34276 — **not live until GitHub approves** Sponsors on the owner account. This project is not receiving sponsor money. Enable steps: [docs/SPONSORS.md](docs/SPONSORS.md).
+
+## Launch drafts
+
+Paste-ready Show HN and one short Reddit / Indie Hackers-style post. **Unpublished** until M.E. pastes them: [docs/LAUNCH.md](docs/LAUNCH.md). No live public demo is claimed. `https://fort-knox-track.fly.dev` does not resolve (checked 2026-09-24).
 
