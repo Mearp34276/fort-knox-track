@@ -1,5 +1,8 @@
 # Fort Knox
 
+[![CI](https://github.com/Mearp34276/fort-knox-track/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Mearp34276/fort-knox-track/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Fort Knox is an installable **plugin of tracks**. Think of it like a railroad:
 
 - A **track** is the Fort Knox rail you install — the shared path that accepts completed work, assigns a route id, and meters a toll.
