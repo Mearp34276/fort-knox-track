@@ -1,0 +1,4 @@
+# Chooser lists every form in this directory together:
+# bug_report.yml, usage_question.yml, and commercial.yml.
+# Blank issues stay available.
+blank_issues_enabled: true

@@ -1,0 +1,86 @@
+name: Bug report
+description: Something broke while installing or running the track
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem with the Fort Knox track.
+
+        **Never paste private keys, seeds, or secrets.** Strip them from logs, commands, and `.env` snippets before you submit. A public treasury address is optional; a private key is not.
+
+        Paid install help uses the Commercial quote form. This form is for bugs.
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: What broke, including any error text with secrets removed.
+      placeholder: The API returned an error when I posted a completed train…
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: What you thought would happen instead.
+      placeholder: A receipt for the $0.002 toll, once.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Commands or clicks, in order. A short example is enough.
+      placeholder: |
+        1. python -m venv .venv && source .venv/bin/activate
+        2. pip install -r requirements.txt
+        3. uvicorn app.main:app --port 8000
+        4. …
+    validations:
+      required: true
+  - type: input
+    id: python_version
+    attributes:
+      label: Python version
+      description: Output of `python --version`. Documented floor is Python 3.10+.
+      placeholder: Python 3.12.3
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: Ubuntu 24.04, macOS 15, Windows 11
+    validations:
+      required: true
+  - type: dropdown
+    id: mock_mode
+    attributes:
+      label: Running in mock mode?
+      description: The public package uses the mock meter unless live send was turned on.
+      options:
+        - "Yes — mock meter (default)"
+        - "No — live send is enabled"
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: Paste only the lines that show the failure. Remove private keys, seeds, and secrets first.
+      render: shell
+      placeholder: |
+        Traceback (most recent call last):
+          ...
+    validations:
+      required: false
+  - type: checkboxes
+    id: no_secrets
+    attributes:
+      label: Secrets check
+      description: Required before this issue can be filed.
+      options:
+        - label: I did not paste private keys, seeds, or secrets
+          required: true
