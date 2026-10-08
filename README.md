@@ -131,6 +131,8 @@ Scaffold owned by M.E. MIT license in `LICENSE`. See [docs/PUBLISH.md](docs/PUBL
 
 Open a free GitHub Issue: https://github.com/Mearp34276/fort-knox-track/issues
 
+Bugs and install/usage questions: use the form chooser at https://github.com/Mearp34276/fort-knox-track/issues/new/choose
+
 We watch Issues on weekdays and update the software when people report problems or confusion. No paid support plan.
 
 ## Commercial / paid help

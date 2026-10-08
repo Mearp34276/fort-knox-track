@@ -1,0 +1,76 @@
+name: Usage question
+description: Ask an install or usage question about the track
+title: "[question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions about installing or using the Fort Knox track are welcome.
+
+        **Never paste private keys, seeds, or secrets.** If a command or `.env` snippet would help, redact those values first.
+
+        Something broken belongs on the Bug report form. Paid install help uses the Commercial quote form.
+  - type: dropdown
+    id: topic
+    attributes:
+      label: What is this about?
+      options:
+        - Install / setup
+        - Running the API
+        - Reporting a completed train
+        - Mock meter
+        - Docs
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, and where did you get stuck?
+      placeholder: I installed the package and I am not sure how to report a completed train…
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you already tried?
+      description: Commands, doc pages, or errors, with secrets removed.
+      placeholder: Followed the Install section in the README, then…
+    validations:
+      required: false
+  - type: input
+    id: python_version
+    attributes:
+      label: Python version
+      description: Output of `python --version`, if this is an install question.
+      placeholder: Python 3.12.3
+    validations:
+      required: false
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: Ubuntu 24.04, macOS 15, Windows 11
+    validations:
+      required: false
+  - type: dropdown
+    id: mock_mode
+    attributes:
+      label: Running in mock mode?
+      description: Helpful when the question is about metering. Skip if you are not sure.
+      options:
+        - "Yes — mock meter (default)"
+        - "No — live send is enabled"
+        - Not sure
+    validations:
+      required: false
+  - type: checkboxes
+    id: no_secrets
+    attributes:
+      label: Secrets check
+      description: Required before this issue can be filed.
+      options:
+        - label: I did not paste private keys, seeds, or secrets
+          required: true
