@@ -135,6 +135,8 @@ Bugs and install/usage questions: use the form chooser at https://github.com/Mea
 
 We watch Issues on weekdays and update the software when people report problems or confusion. No paid support plan.
 
+Contributing and private vulnerability reports: [CONTRIBUTING.md](CONTRIBUTING.md) · [SECURITY.md](SECURITY.md)
+
 ## Commercial / paid help
 
 MIT use stays free. For paid install help, priority support, or a custom operator integration, open a **Commercial quote** Issue: https://github.com/Mearp34276/fort-knox-track/issues/new/choose
