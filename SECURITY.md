@@ -8,6 +8,8 @@ https://github.com/Mearp34276/fort-knox-track/security/advisories/new
 
 On the repository **Security** tab, choose **Report a vulnerability**. The report stays in a private security advisory. Include what you can about impact and how to reproduce it, with secrets removed.
 
+If the **Report a vulnerability** button is not shown, private reporting is not enabled yet. In that case, open a public issue titled `Security contact request` with no technical details, and the maintainer will reply with a private channel.
+
 This repository has no security email address. Public issues are for bugs and usage questions ([CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ## Supported versions
